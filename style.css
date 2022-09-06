@@ -107,10 +107,10 @@ body{
 
 .container .box .circle{
     position: absolute;
-    top: 25%;
-    left: 16%;
-    width: 200px;
-    height: 200px;
+    top: 27%;
+    left: 19%;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     transition: 0.5s;
     background: #fff;
@@ -118,6 +118,18 @@ body{
     z-index: 10;
     opacity: 1;
     transform: translate3d(-50%,-50%,-50%);
+}
+
+.container .box .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 260px;
+    transition: 0.5s;
+    z-index: 11;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,0px) rotate(-15deg);
 }
 
 
