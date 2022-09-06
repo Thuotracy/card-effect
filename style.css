@@ -33,3 +33,35 @@ body{
     border-radius: 20px;
     transform-style: preserve-3d;
 }
+
+.container .box::before{
+    content: 'NIKE';
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 5em;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .box::after{
+    content: 'SHOES';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 5em;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+    opacity: 0; 
+    transition: 0.5s;
+}
+
+.container .box:hover::before,
+.container .box:hover::after{
+    opacity: 0.04;
+}
+
