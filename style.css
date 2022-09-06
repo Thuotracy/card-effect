@@ -13,3 +13,13 @@ body{
     min-height: 100vh;
     background: #131313;
 }
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style: preserve-3d;
+}
