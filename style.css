@@ -100,5 +100,25 @@ body{
     z-index: 10;
 }
 
+.container .box:hover .buy{
+    bottom: 30px;
+    opacity: 1;
+}
+
+.container .box .circle{
+    position: absolute;
+    top: 25%;
+    left: 16%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+    background: #fff;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,-50%);
+}
+
 
 
