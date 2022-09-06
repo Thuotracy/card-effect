@@ -132,5 +132,12 @@ body{
     transform: translate3d(-50%,-50%,0px) rotate(-15deg);
 }
 
+.container .box:nth-child(1) .circle,
+.container .box:nth-child(1) .buy{
+    background: #9bdc28;
+}
+
+
+
 
 
